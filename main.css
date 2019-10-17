@@ -1,0 +1,85 @@
+.post{
+    background-color: white;
+    height: 150px;
+    width: 4fr;
+    margin: 50px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.name{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 900;
+    color: orangered;
+}
+.description{
+    font-family: Cambria;
+}
+.readmorebtn{
+    background-color: limegreen;
+    height: 50px;
+    width: 120px;
+}
+.header{
+    grid-area: header;
+    background: yellow;
+    font-size: 80px;
+    font-family: cursive;
+    color: black;
+    text-align:center;
+}
+.footer{
+    grid-area: footer;
+    background: red;
+    text-align:center;
+}
+.main{
+    grid-area: main;
+    background: orange;
+    text-align:center;
+
+}
+.left{
+    grid-area: left;
+    background: green;
+    text-align:center;
+
+}
+.container{
+    display: grid;
+    grid-template-areas:"header header"
+                        "left main"
+                        "footer footer";
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows:200px 3fr 100px;
+    min-height: 100vh;
+}
+.menubtn{
+    background: white;
+    width: 200px;
+    height: 40px;
+    text-align:center;
+
+}
+#menutitle{
+    border-style: solid;
+    border-color: black;
+    background: white;
+    height: 40px;
+    text-align:center;
+
+}
+
+@media screen and (max-width:600px){
+    .container{
+        grid-template-areas:"header"
+                        "left"
+                        "main"
+                        "footer";
+        grid-template-columns: 100%;
+        grid-template-rows:0.5fr 1fr 2fr 0.5fr;
+    }
+    
+}
