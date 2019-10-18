@@ -83,14 +83,77 @@ img{
 */
 
 
-@media screen and (max-width:324px){
+@media screen and (max-width:600px){
     .container{
         grid-template-areas:"header"
                         "left"
                         "main"
                         "footer";
-        grid-template-columns: 100%;
+        grid-template-columns: 324px;
         grid-template-rows:0.2fr 0.3fr 2fr 0.2fr;
     }
+    .post{
+        background-color: white;
+        height: 150px;
+        width: 324px;
+        margin: 4%;
+    }
+    img{
+        height: 100px;
+        width: 100px;
+    }
+    .name{
+        font-family: cursive;
+        font-size: 25px;
+        font-weight: 900;
+        color: orangered;
+    }
+    .description{
+        font-family: Cambria;
+    }
+    .readmorebtn{
+        background-color: limegreen;
+        height: 50px;
+        width: 120px;
+    }
+    .header{
+        grid-area: header;
+        background: yellow;
+        font-size: 80px;
+        font-family: cursive;
+        color: black;
+        text-align:center;
+    }
+    .footer{
+        grid-area: footer;
+        background: red;
+        text-align:center;
+    }
+    .main{
+        grid-area: main;
+        background: orange;
+        text-align:center;
     
+    }
+    .left{
+        grid-area: left;
+        background: green;
+        text-align:center;
+    
+    }
+    .menubtn{
+        background: white;
+        width: 200px;
+        height: 40px;
+        text-align:center;
+    
+    }
+    #menutitle{
+        border-style: solid;
+        border-color: black;
+        background: white;
+        height: 40px;
+        text-align:center;
+    
+    }
 }
