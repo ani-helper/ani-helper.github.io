@@ -91,6 +91,7 @@ img{
                         "footer";
         grid-template-columns: 100%;
         grid-template-rows:0.2fr 0.3fr 2fr 0.2fr;
+        width: 120px;
     }
     .post{
         background-color: white;
