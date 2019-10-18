@@ -7,9 +7,9 @@
 
 .post{
     background-color: white;
-    height: 150px;
+    height: 13%;
     width: 4fr;
-    margin: 50px;
+    margin: 4%;
 }
 img{
     height: 100px;
@@ -60,7 +60,7 @@ img{
                         "left main"
                         "footer footer";
     grid-template-columns: 1fr 4fr;
-    grid-template-rows:200px 3fr 100px;
+    grid-template-rows:0.3fr 3fr 0.3fr;
     min-height: 100vh;
 }
 .menubtn{
@@ -91,7 +91,6 @@ img{
                         "footer";
         grid-template-columns: 100%;
         grid-template-rows:0.2fr 0.3fr 2fr 0.2fr;
-        width: 120px;
     }
     .post{
         background-color: white;
