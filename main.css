@@ -7,7 +7,7 @@
 
 .post{
     background-color: white;
-    height: 13%;
+    height: 150px;
     width: 4fr;
     margin: 4%;
 }
@@ -95,7 +95,7 @@ img{
     .post{
         background-color: white;
         height: 150px;
-        width: 4fr;
+        width: 300px;
         margin: 50px;
     }
 }
