@@ -89,7 +89,7 @@ img{
                         "left"
                         "main"
                         "footer";
-        grid-template-columns: 324px;
+        grid-template-columns: 350px;
         grid-template-rows:0.2fr 0.3fr 2fr 0.2fr;
     }
     .post{
