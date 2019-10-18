@@ -1,3 +1,10 @@
+
+/*
+компьютерная версия
+*/ 
+
+
+
 .post{
     background-color: white;
     height: 150px;
@@ -71,6 +78,10 @@ img{
     text-align:center;
 
 }
+/*
+мобильная версия
+*/
+
 
 @media screen and (max-width:1000px){
     .container{
@@ -79,7 +90,12 @@ img{
                         "main"
                         "footer";
         grid-template-columns: 100%;
-        grid-template-rows:0.5fr 1fr 2fr 0.5fr;
+        grid-template-rows:0.2fr 0.3fr 2fr 0.2fr;
     }
-    
+    .post{
+        background-color: white;
+        height: 150px;
+        width: 4fr;
+        margin: 50px;
+    }
 }
