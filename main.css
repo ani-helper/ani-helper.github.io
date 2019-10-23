@@ -4,7 +4,22 @@
 */ 
 
 
-
+.detail{
+    background: white;
+    width: 200px;
+    height: 40px;
+    text-align:center;
+    font-weight: 600;
+    background-color:rgba(24, 115, 206, 0.795);
+    margin: 5px;
+    margin-left: 60px;
+    transition-property: border-top-right-radius,backgound-color;
+    transition-duration: 0.2s;
+    border-width: 0px;
+}
+.detail:hover{
+    border-top-right-radius: 20px;
+}
 .post{
     background-color: rgb(241, 241, 241);
     height: 150px;
@@ -89,7 +104,7 @@ img{
     text-align:center;
     font-weight: 600;
     background-color:rgba(30, 143, 255, 0.795);
-    margin: -3px;
+    margin: 3px;
     transition-property: border-top-right-radius,backgound-color;
     transition-duration: 0.2s;
     border-width: 0px;
