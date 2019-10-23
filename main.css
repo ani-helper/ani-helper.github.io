@@ -114,7 +114,7 @@ button{
 */
 
 
-@media only screen and (max-width : 480px){
+@media only screen and (max-width:450px){
     .container{
         grid-template-areas:"header"
                         "left"
@@ -126,7 +126,29 @@ button{
     .post{
         background-color: rgb(241, 241, 241);
         height: 150px;
-        width: 324px;
+        width: 350px;
+        margin: 4%;
+    }
+    
+    
+    
+    
+    
+    
+}
+@media only screen and (max-width : 600px)and (min-width:450px){
+    .container{
+        grid-template-areas:"header"
+                        "left"
+                        "main"
+                        "footer";
+        grid-template-columns: 500px;
+        grid-template-rows:0.2fr 0.3fr 2fr 0.2fr;
+    }
+    .post{
+        background-color: rgb(241, 241, 241);
+        height: 150px;
+        width: 400px;
         margin: 4%;
     }
     
