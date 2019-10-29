@@ -4,23 +4,7 @@
 */ 
 
 
-.detail{
-    background: white;
-    width: 200px;
-    height: 40px;
-    text-align:center;
-    font-weight: 600;
-    background-color:rgba(24, 115, 206, 0.795);
-    margin: 5px;
-    margin-left: 60px;
-    transition-property: border-top-right-radius,backgound-color;
-    transition-duration: 0.2s;
-    border-width: 0px;
-    border-radius: 5px;
-}
-.detail:hover{
-    border-top-right-radius: 20px;
-}
+
 .post{
     background-color: rgb(241, 241, 241);
     height: 150px;
@@ -74,9 +58,8 @@ img{
 }
 .footer{
     grid-area: footer;
-    background: #1D262D;
+    background: rgb(255, 255, 255);
     text-align:center;
-    color: #869FB2;
 }
 .main{
     grid-area: main;
@@ -106,11 +89,10 @@ img{
     text-align:center;
     font-weight: 600;
     background-color:rgba(30, 143, 255, 0.795);
-    margin: 3px;
+    margin: -3px;
     transition-property: border-top-right-radius,backgound-color;
     transition-duration: 0.2s;
     border-width: 0px;
-    border-radius: 5px;
 }
 .menubtn:hover{
     border-top-right-radius: 20px;
@@ -126,31 +108,6 @@ button{
     text-align:center;
     border-radius: 10px;
 
-}
-.instruction{
-    background-color: #F4F4F4;
-    text-align: center;
-    font-size: 25px;
-}
-li{
-    text-align: left;
-    border-style: solid;
-    border-color: rgba(128, 128, 128, 0.61);
-    border-right-color: rgb(41, 153, 228);
-    border-width: 3px;
-    max-width: 600px;
-    border-radius: 8px;
-    margin-top: 10px;
-}
-.contact-img{
-    width: 40px;
-    height: 40px;
-    transition: all 0.5s;
-}
-.contact-img:hover{
-    width: 41px;
-    height: 41px;
-    cursor: pointer;
 }
 /*
 мобильная версия
