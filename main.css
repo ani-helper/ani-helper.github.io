@@ -162,6 +162,11 @@ li{
     height: 60%;
     border-radius: 1px;
 }
+.noposts{
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}
 /*
 мобильная версия
 */
