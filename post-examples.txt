@@ -1,6 +1,6 @@
-<div class ="post" align="left">
+﻿<div class ="post" align="left">
             <p class = "name">Кот Васька <img src="images/kot.jpg"; align = "right"></p>
             <p class="description">Ему нужна ваша помощь</p>
             <button align = "center"class = "readmorebtn">Узнать больше</button>
             
-        </div>
+</div>
