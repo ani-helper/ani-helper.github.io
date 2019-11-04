@@ -34,11 +34,6 @@
     border-radius: 5%;
     background-color: rgb(219, 219, 219);
 }
-img{
-    height: 150px;
-    width: 150px;
-    border-radius: 10%;
-}
 .name{
     font-family: cursive;
     font-size: 25px;
@@ -166,6 +161,27 @@ li{
     font-size: 30px;
     font-family: cursive;
     text-align: center;
+}
+.postdesc{
+    font-style: italic;
+    font-size: 15px;
+}
+.posttext{
+    font-size: 20px;
+}
+.postimg{
+    width: 200px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    border-radius: 0px;
+}
+.postimg:hover{
+    width: 400px;
+}
+.postimage{
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
 }
 /*
 мобильная версия
